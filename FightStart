@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FightStart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>FightStart</h1>
+    <p>Почни свій шлях у бойових мистецтвах</p>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#arts">Martial Arts</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#beginners">For Beginners</a>
+        <a href="#sport">About Sport</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Єдиноборства для початківців</h2>
+    <p>
+        Сайт допоможе обрати вид спорту та безпечно
+        розпочати тренування.
+    </p>
+</section>
+
+<section id="arts">
+    <h2>Види єдиноборств</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Самбо</h3>
+            <p>
+                Силова боротьба з кидками та больовими прийомами.
+                Розвиває силу, реакцію та витривалість.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Дзюдо</h3>
+            <p>
+                Японське бойове мистецтво, що навчає
+                дисципліни та безпечних технік падіння.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>ММА</h3>
+            <p>
+                Змішані бойові мистецтва, які поєднують
+                боротьбу та ударну техніку.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Сумо</h3>
+            <p>
+                Традиційна японська боротьба,
+                що розвиває баланс та силу.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="comparison">
+    <h2>Порівняння</h2>
+
+    <table>
+        <tr>
+            <th>Вид спорту</th>
+            <th>Складність</th>
+            <th>Для кого</th>
+        </tr>
+
+        <tr>
+            <td>Самбо</td>
+            <td>Середня</td>
+            <td>Активні люди</td>
+        </tr>
+
+        <tr>
+            <td>Дзюдо</td>
+            <td>Легка</td>
+            <td>Діти та новачки</td>
+        </tr>
+
+        <tr>
+            <td>ММА</td>
+            <td>Висока</td>
+            <td>Досвідчені спортсмени</td>
+        </tr>
+
+        <tr>
+            <td>Сумо</td>
+            <td>Середня</td>
+            <td>Любителі японської культури</td>
+        </tr>
+
+    </table>
+</section>
+
+<section id="beginners">
+    <h2>Поради для початківців</h2>
+
+    <ul>
+        <li>Обирайте тренера з досвідом</li>
+        <li>Не перевантажуйте себе на перших тренуваннях</li>
+        <li>Використовуйте захисне спорядження</li>
+        <li>Регулярно тренуйтеся</li>
+    </ul>
+</section>
+
+<section id="sport">
+    <h2>Користь спорту</h2>
+
+    <p>
+        Єдиноборства розвивають силу, дисципліну,
+        витривалість та самоконтроль.
+    </p>
+</section>
+
+<footer>
+    <p>FightStart © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
